@@ -17,6 +17,7 @@
 #import <UIKit/UIKit.h>
 #import <QuartzCore/QuartzCore.h>
 #import "SDAutoLayout.h"
+#import "UITableView+SDAutoTableViewCellHeight.h"
 #import "AFNetworking.h"
 #import "UIImageView+WebCache.h"
 #import "UIView+SDAutoLayout.h"
@@ -26,6 +27,7 @@
 #import "NSDate+ExFoundation.h"
 #import "NSDate+SNFoundation.h"
 #import "UIColor+SNFoundation.h"
+#import "ComstomHeader.h"
 
 /*
  相关设置
@@ -48,6 +50,20 @@
 #define IsArrEmpty(_ref)    (((_ref) == nil) || ([(_ref) isEqual:[NSNull null]]) ||([(_ref) count] == 0))
 //nil字符串判断返回
 #define VALIDATE_STRING(str) (IsNilOrNull(str) ? @"" : str)
+
+
+//**是否为iOS7start**/
+#define iOS7 ([[UIDevice currentDevice].systemVersion doubleValue] >= 7.0)
+
+/**屏幕的宽高**/
+#define ScreenW [UIScreen mainScreen].bounds.size.width
+#define ScreenH [UIScreen mainScreen].bounds.size.height
+
+/*占位图片*/
+#define PlaceholderImage [UIImage imageNamed:@"noresult"]
+
+//
+#define MainColor [UIColor colorWithPatternImage:[UIImage imageNamed:@"nav_BG"]]
 
 
 #endif /* PrefixHeader_pch */

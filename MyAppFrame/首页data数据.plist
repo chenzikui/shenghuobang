@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>describe</key>
+		<string>包括恐怖漫画、段子、冷知识、奇趣、电影、搞笑、萌宠、新奇、环球、摄影、玩艺类别</string>
+		<key>kindid</key>
+		<string>958-1</string>
+		<key>title</key>
+		<string>黑白漫画</string>
+		<key>image</key>
+		<string>黑白漫画</string>
+		<key>controller_str</key>
+		<string>BlackAndWhiteCartoonViewController</string>
+	</dict>
+	<dict>
+		<key>describe</key>
+		<string>花瓣美女图片采集，包含大胸妹，小清新，文艺范，性感妹，大长腿，黑丝袜，小翘臀等</string>
+		<key>kindid</key>
+		<string>819-1</string>
+		<key>title</key>
+		<string>花瓣福利</string>
+		<key>image</key>
+		<string>花瓣福利</string>
+		<key>controller_str</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>describe</key>
+		<string>共收集美女图片近十万张，按图集进行归类，包括性感、清纯等类型，不定期更新</string>
+		<key>kindid</key>
+		<string>1208-2</string>
+		<key>title</key>
+		<string>美女图集</string>
+		<key>image</key>
+		<string>美女图集.jpg</string>
+		<key>controller_str</key>
+		<string>MeiNvTuJiTableViewController</string>
+	</dict>
+</array>
+</plist>
